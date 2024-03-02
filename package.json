@@ -1,5 +1,6 @@
 {
   "name": "rain-effect",
+  "packageManager": "yarn@4.1.0",
   "version": "1.0.0",
   "description": "Rain Effects with WebGL and Canvas",
   "main": "gulpfile.js",
@@ -9,26 +10,35 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codrops/RainEffect.git"
+    "url": "git+https://github.com/pycabbage/RainEffect.git"
   },
   "author": "",
   "license": "SEE LICENSE IN http://tympanus.net/codrops/licensing/",
-  "homepage": "https://github.com/codrops/RainEffect",
+  "homepage": "https://github.com/pycabbage/RainEffect",
   "devDependencies": {
-    "babel": "^5.8.29",
-    "babelify": "^6.4.0",
-    "browserify": "^11.2.0",
-    "core-js": "^1.2.3",
-    "extend": "^3.0.0",
-    "fs": "0.0.2",
-    "glslify": "^2.3.1",
-    "gulp-uglify": "^1.5.3",
-    "gsap": "^1.18.0",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.1",
-    "gulp-connect": "^2.2.0",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "core-js": "^3.36.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "extend": "^3.0.2",
+    "glslify": "^7.1.1",
+    "gsap": "^3.12.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
     "gulp-streamify": "^1.0.2",
-    "uglify-js": "^2.5.0",
-    "vinyl-source-stream": "^1.1.0"
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "uglify-js": "^3.17.4",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
